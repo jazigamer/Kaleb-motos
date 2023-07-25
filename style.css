@@ -1,0 +1,84 @@
+body{
+    background-image: linear-gradient(to right, #880000, #530000);
+}
+h1{
+    font-size:80px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: -50px;
+    left: 100px;
+}
+.titulo{
+    color: #00ff00;
+}
+.logo_pag{
+    width: 10%; /* Tamanho fixo em pixels */
+    height: auto;
+    border: 1px dashed #00ff00,0.1;
+    border-radius: 10px;
+}
+.logo{ 
+    width: 25%; /* Tamanho fixo em pixels */
+    height: auto;
+    border: 1px dashed #00ff00,0.1;
+    border-radius: 10px;
+}
+.insta{
+    width: 20%; /* Tamanho fixo em pixels */
+    height: auto;
+    border: 1px dashed #00ff00,0.1;
+    border-radius: 10px;
+    position: absolute;
+    top: 15px;
+    left: 275px;
+    max-width: 100%;
+    height: auto; /* Isso mantém a proporção original da imagem */
+    display: block; /* Remove espaços em branco indesejados abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+.zap{
+    width: 20%; /* Tamanho fixo em pixels */
+    height: auto;
+    border: 1px dashed #00ff00,0.1;
+    border-radius: 10px;
+    position: absolute;
+    top: 15px;
+    left: 310px;
+}
+.info-box {
+    background-color: #f0f0f0;
+    border: 2.5px solid #000000;
+    border-radius: 15px;
+    padding-left:15px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    transform: translate(-50,-50);
+}
+.mensagem {
+    display: none;
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 5px solid #6d6d6d;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.msg-tela{
+
+    font-size: 50px;
+    color: #000000;
+}
+.textos-1{
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}
+.textos-2{
+    color: #000000;
+    font-size: 20px;
+}
